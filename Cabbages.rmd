@@ -35,6 +35,13 @@ veggy <- cabbages
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+boxplot(VitC~Cult,data=veggy)
+```
+ 
+ 
+ The box plot demonstrates a statistical difference in the amount of Vitamin C dependent on the cabbage's cultivation method. Method c39 has a median of 51 unlike,method c52 which has a median of 65. Furthermore, if the two boxes were put on to the same column they would not intersect.
+ 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
