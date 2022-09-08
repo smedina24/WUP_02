@@ -43,6 +43,13 @@ boxplot(VitC~Cult,data=veggy)
  The box plot demonstrates a statistical difference in the amount of Vitamin C dependent on the cabbage's cultivation method. Method c39 has a median of 51 unlike,method c52 which has a median of 65. Furthermore, if the two boxes were put on to the same column they would not intersect.
  
 ### Numerical Descriptive Results
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
+The first Quartile of method c52 is at 58
+and the third Quartile of method c39 is at
+54.75. The first Quartile of c 52 is higher than the third Quartile of c 39 this indicates a statistical difference between the two cultivation methods and the amount of Vitamin C.
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
